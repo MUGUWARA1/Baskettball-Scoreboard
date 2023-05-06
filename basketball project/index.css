@@ -1,0 +1,150 @@
+@import url('https://fonts.cdnfonts.com/css/led-digital-7');
+body
+{
+    background-image: url("baskett.jpg");
+    height: 100vh;
+    max-width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#main
+{
+    height: 500px;
+    position: relative;
+}
+
+h2
+{
+    font-family:'LED Digital 7', sans-serif;
+    font-size: 150px;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    line-height: 0%;
+    
+}
+.full
+{
+    background-color: blanchedalmond;
+    position: relative;
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+
+}
+
+#home
+{
+    position: relative;
+    
+}
+#guest
+{
+    position: relative;
+    left: 80px;
+
+}
+#numberh
+{
+    position: absolute;
+    width: 70%;
+    height: 175px;
+    background-color: coral;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+#numberg
+{
+    position: absolute;
+    width: 70%;
+    height: 175px;
+    background-color: coral;
+    margin-left: 45px;
+    border-radius: 10px;
+
+}
+
+button
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.7s;
+    border-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover
+{
+    background-color: aliceblue;
+    color: black;
+}
+.button1
+{
+    left:50px;
+    bottom: 25px;
+
+}
+.button2
+{  
+    left: 120px;
+    bottom: 25px;
+}
+.button3
+{
+    left:190px;
+    bottom: 25px;
+}
+.reset
+{
+    top: 10px;
+    right: 10px;
+    width: 70px;
+    background-color: red;
+}
+.reset:hover
+{
+    background-color: brown;
+    color: chartreuse;
+}
+.title
+{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    margin-left: 100px;
+}
+.result
+{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    width: 650px;
+    min-height:200px ;
+    margin-left: 40px;
+}
+#save-btn
+{
+    background-color: green;
+    border-width: 0;
+    width: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 310px;
+
+
+}
+#resultat
+{
+    font-weight: bold;
+    font-size: 20px;
+}
