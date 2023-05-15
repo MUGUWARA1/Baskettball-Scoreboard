@@ -63,8 +63,8 @@ function resethome()
     
     
 
-    let resultat=" \n---- Match "+ i + ":** Home :"+ counthome+ "  //Guest : " + countguest+"----"
-    saveResult.textContent+=resultat
+    let resultat=" Match "+ i + ": Home :"+ counthome+ "  -----Guest : " + countguest+"----"
+    saveResult.innerHTML+="<li>"+resultat+"</li>"
     i++
 
  }

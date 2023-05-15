@@ -3,7 +3,6 @@ body
 {
     background-image: url("baskett.jpg");
     height: 100vh;
-    max-width: 700px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -120,14 +119,14 @@ button:hover
     border-radius: 5px;
     text-align: center;
     width: 500px;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 .result
 {
     background-color: blanchedalmond;
     border-radius: 5px;
     width: 650px;
-    min-height:200px ;
+    min-height:100px ;
     margin-left: 40px;
 }
 #save-btn
@@ -147,4 +146,9 @@ button:hover
 {
     font-weight: bold;
     font-size: 20px;
+}
+.marginleft
+{
+    position: relative;
+    margin-left: 400px;
 }
